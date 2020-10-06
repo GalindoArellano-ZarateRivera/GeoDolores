@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<title>GEOLOCALIZADOR</title>¡-->
+<head>
+<title> Geolocalizador </title>
+<link rel="shortcut icon" href="https://genfavicon.com/tmp/icon_df867019cb446891149f827d93792590.ico">
+</head>
+<!-- Tell the browser to be responsive to screen width -->
+
+
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+<body>
+
+<html lang="en">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #03A5AD;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #025D62;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #025D62;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<footer><h1><center>Ciudad principal en elaboraci&oacute;n de Talavera</center></h1></footer>
+
+<header>
+	<p>En Dolores Hidalgo son decenas los fabricantes de cer&aacute;mica, donde la t&eacute;cnica artesanal prevalece a trav&eacute;s del tiempo en manos de dolorenses. El azulejo artesanal se distingue del industrial precisamente por sus imperfecciones, que lejos de ser un defecto es una caracter&iacute;stica.
+	</p>
+</header>
+<footer>
+<section>
+  <nav>
+    <ul>
+
+      <div align="center"><br>
+        <img  src="descarga.png"  width="150" height="150"></div>
+    </ul>
+  </nav>
+  
+  <article>
+    <div id="map"></div>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+  </article>
+</section>
+</footer>
+
+<footer>
+  <p><center>PARA DESCUBRIR M&Aacute;S LUGARES DE DOLORES HIDALDO C.I. N GTo, DA CLIC EN LA PARTE INFERIOR IZQUIERDA DEL MAPA "GOOGLE" O BIEN DAR CLIC EN LA IMAGEN "+" PARA AMPLIAR EL MAPA</center></p>
+</footer>
+</body>
+
+
+</html>
